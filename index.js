@@ -9,6 +9,9 @@ elForm.addEventListener("submit", (e) => {
   const valuePaswrd = elPaswrd.value.trim();
   if (!valueText || !valuePaswrd) {
     return alert("Bosh Joy Kolgan");
+  } else {
+    alert("go away");
+    window.location.hrefhttps; //github.com/elyorcoder/js
   }
   console.log(elPaswrd);
 });
